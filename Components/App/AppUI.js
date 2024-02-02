@@ -1,5 +1,4 @@
 import { setInitialState } from '../../Utils/DarkMode.js'
-import './app.css'
 
 document.addEventListener( 'DOMContentLoaded', setInitialState )
 window.addEventListener( 'storage', event => { if( event.key === 'darkMode' ) setInitialState() } )
